@@ -1,7 +1,7 @@
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
+import pandas as pd # pip install pandas
+import seaborn as sns # pip install seaborn
+import matplotlib.pyplot as plt # pip install matplotlib
+import numpy as np # pip install numpy
 
 def calcular_regressao_simples(x, y):
     x_media, y_media = x.mean(), y.mean()
